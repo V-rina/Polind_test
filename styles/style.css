@@ -150,7 +150,7 @@ h1{
 }
 
 .yellow_button {
-	margin:51px 0 556px;
+	margin:51px 0 200px;
 color: #b98000;
 font-family:"Montserrat-Bold";
 font-size: 14px;
@@ -169,7 +169,7 @@ border:none;
 /*Search section*/
 
 h2{
-margin:275px 0 52px;
+margin:105px 0 52px;
 color: #606f81;
 font-family:"Montserrat-Bold";
 font-size: 30px;
@@ -217,8 +217,12 @@ font-size: 30px;
 	padding:10px;
 	box-shadow: 0 0 85px rgba(141, 148, 169, 0.15);
 	border-radius: 5px;
-	width: 363px;
+	width: 360px;
     margin: 13px;
+}
+
+#cities div img{
+	width: 351px;
 }
 #cities div:hover{
 	box-shadow: 0 15px 10px #777;
