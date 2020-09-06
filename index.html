@@ -20,7 +20,7 @@
 				<nav class="clearfix">
 					<ul>
 						<li></li>
-						<li><a href="#">Sign in</a></li>
+						<li id="sign_in_button"><a href="#">Sign in</a></li>
 						<li><a href="#">Hotels</a></li>
 						<li><a href="#">Journey</a></li>
 						<li><a href="#">Guide</a></li>
@@ -105,9 +105,18 @@
 		<div class="container">
 			<p>Enjoy your journey</p>
 			<button class="yellow_button">SIGN UP</button>
-			<p class="newsletter_link">You can also sign up on our <a href="#">newsletter</a></p>
+			<p class="newsletter_link">You can also sign up on our <a href="#" class="active_link">newsletter</a></p>
 		</div>
 	</div>
+	<div id="sign_in_form">
+				<form>
+					<input type="text" id="login" placeholder="Login">
+					<input type="password" id="password" placeholder="Password">
+					<input type="submit" id="login_submit"value="Log in" class="yellow_button">
+				</form>
+				<div id="form_footer"><a href="#" class="active_link">Forgot password?</a></div>
+			</div>
+<script src="index.js"></script>
 
 </body>
 </html>

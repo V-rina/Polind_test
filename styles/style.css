@@ -41,7 +41,7 @@ input:focus{
 	outline: none;
 }
 
-input[type="text"] {
+input[type="text"], input[type="password"], input[type="submit"]{
 	 font-family:"Montserrat-Regular";
     font-weight: 600;
     font-size: 18px;
@@ -359,6 +359,38 @@ font-size: 18px;
 margin:0 0 200px;
 }
 
-.newsletter_link a{
+.active_link{
 	color: #ffc74a;
+	font-family:"Montserrat-Regular";
+font-size: 18px;
+}
+
+
+
+#sign_in_form{
+	z-index: -50;
+	position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 340px;
+    margin: 0 auto;
+    box-shadow: 0 15px 10px #777;
+    background: white;
+    height: 380px;
+}
+#sign_in_form form input{
+	width: 300px;
+	height: 59px;
+	border:none;
+	border-radius: 25px 25px;
+	box-shadow: 0 0 85px rgba(141, 148, 169, 0.15);
+	padding: 20px;
+    margin: 20px;
+}
+
+#sign_in_form div{
+	    padding: 30px;
+	    text-align: center;
 }
