@@ -368,7 +368,7 @@ font-size: 18px;
 
 
 #sign_in_form{
-	z-index: -50;
+	display: none;
 	position: absolute;
     top: 10%;
     bottom: 0;
@@ -391,6 +391,91 @@ font-size: 18px;
 }
 
 #sign_in_form div{
-	    padding: 30px;
-	    text-align: center;
+	padding: 30px;
+	text-align: center;
+}
+
+#form_footer{
+	font-weight: 600;
+	color: #606f81;
+	font-family:"Montserrat-Regular";
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#form_footer a:hover {
+	color: #bdc8d9;
+	text-decoration: none;
+}
+
+#this_register_form{
+	background-color: white;
+	display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	display: none;
+	z-index: 50;
+}
+#register_form {
+	position: absolute;
+    top: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	width: 340px;
+	margin: 0 auto;
+	z-index: 50;
+}
+
+#register_form input, .label{
+	display: block;
+	width: 300px;
+	height: 59px;
+	border:none;
+	border-radius: 25px 25px;
+	box-shadow: 0 0 85px rgba(141, 148, 169, 0.15);
+	padding: 20px;
+    margin: 20px;
+}
+
+input[type=file]{
+	outline:0;
+	opacity:0;
+	pointer-events:none;
+	user-select:none
+}
+
+.label {
+	cursor:pointer;
+	text-align:left;
+}
+
+.label:hover{
+	border:1px dotted #606f81
+}
+
+.label span{
+    color: #606f81;
+    font-family:"Montserrat-Regular";
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+#avatar_form {
+	background: #ffc74a;
+	width: 200px;
+	height: 200px;
+	margin:0 auto;
+	box-shadow: 0 0 85px rgba(141, 148, 169, 0.15);
+	border-radius:50%;
+	overflow: hidden;
+}
+
+#user_picture{
+	width: 220px;
+	height: 220px;
 }

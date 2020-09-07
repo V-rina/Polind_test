@@ -110,12 +110,23 @@
 	</div>
 	<div id="sign_in_form">
 				<form>
-					<input type="text" id="login" placeholder="Login">
-					<input type="password" id="password" placeholder="Password">
+					<input type="text" id="login" placeholder="Login" >
+					<input type="password" id="password" placeholder="Password" >
 					<input type="submit" id="login_submit"value="Log in" class="yellow_button">
 				</form>
-				<div id="form_footer"><a href="#" class="active_link">Forgot password?</a></div>
+				<div id="form_footer">Don`t have an account ? Register <a href="#" class="active_link" id="register_now_button">now</a>
+				</div>
 			</div>
+	<div  class="container-fluid" id="this_register_form">
+		<form id="register_form">
+			<div id="avatar_form"><img src="" id="user_picture"></div>
+			<input type="text" id="login" placeholder="Login">
+			<input type="password" id="password" placeholder="Password">
+			<input type="password" id="password" placeholder="Confirm password">
+			<label for="avatar" class="label"><span>Add picture</span><input type="file" id="avatar"></label>
+			<input type="submit" id="login_submit" value="Register" class="yellow_button">
+		</form>
+	</div>
 <script src="index.js"></script>
 
 </body>
